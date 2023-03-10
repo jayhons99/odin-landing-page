@@ -170,6 +170,15 @@ a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+
+.footer {
+  margin: 0px;
+  background-color: #1f2937;
+  text-align: center;
+  padding: 0.5rem;
+  color: #e5e7eb;
+  font-size: 14px;
+}
 /* normalize styling- ignore */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
