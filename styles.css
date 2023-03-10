@@ -34,13 +34,13 @@
 }
 .bottom-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 #header-image {
-  width: 45%;
-  height: auto;
+  width: 60rem;
+  height: 30rem;
   padding: 25px;
 }
 
@@ -74,6 +74,101 @@ a:hover {
   text-decoration: underline;
 }
 
+.box {
+  border-radius: 15px;
+  border-color: #3882f6;
+  border-style: solid;
+  padding: 50px;
+  width: 50px;
+  height: 35px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.middle-section-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.box-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 12px;
+}
+
+.quote-block {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+  margin: 75px;
+}
+
+#quote-name {
+  font-weight: 500;
+  font-size: 25px;
+  align-self: flex-end;
+  margin-right: 8rem;
+  padding-bottom: 5rem;
+}
+
+.action-block {
+  display: flex;
+  justify-content: center;
+}
+
+.action-modal {
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  color: #e5e7eb;
+  margin: 5rem;
+  padding: 16px;
+  align-items: center;
+}
+
+#action-left {
+  margin: 3rem;
+}
+
+#action-left h1 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+#action-left p {
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#sign-up-btn-action {
+  width: 8rem;
+  height: 2rem;
+  color: #e5e7eb;
+  border-radius: 5px;
+  border-color: white;
+  background: none;
+}
+
+#sign-up-btn-action:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 /* normalize styling- ignore */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
