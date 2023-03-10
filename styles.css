@@ -163,6 +163,7 @@ a:hover {
   border-radius: 5px;
   border-color: white;
   background: none;
+  margin-right: 3rem;
 }
 
 #sign-up-btn-action:hover {
